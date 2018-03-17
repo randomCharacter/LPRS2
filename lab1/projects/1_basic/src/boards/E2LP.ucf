@@ -1,0 +1,39 @@
+
+NET i_clk LOC = "M21"  |  IOSTANDARD = "LVCMOS33";
+NET "i_clk" TNM_NET = i_clk_pin;
+TIMESPEC TS_i_clk_pin = PERIOD i_clk_pin 24000 kHz;
+
+NET in_rst LOC = "AE24"  |  IOSTANDARD = "LVCMOS33"  |  TIG;
+
+NET i_sw[0] LOC = "W19" | IOSTANDARD = "LVCMOS33";
+NET i_sw[1] LOC = "Y24" | IOSTANDARD = "LVCMOS33";
+NET i_sw[2] LOC = "K19" | IOSTANDARD = "LVCMOS33";
+NET i_sw[3] LOC = "V24" | IOSTANDARD = "LVCMOS33";
+NET i_sw[4] LOC = "U20" | IOSTANDARD = "LVCMOS33";
+NET i_sw[5] LOC = "U23" | IOSTANDARD = "LVCMOS33";
+NET i_sw[6] LOC = "U24" | IOSTANDARD = "LVCMOS33";
+NET i_sw[7] LOC = "U19" | IOSTANDARD = "LVCMOS33";
+
+NET in_btn[0] LOC = "AA23" | IOSTANDARD = "LVCMOS33"; # Up
+NET in_btn[1] LOC = "AC23" | IOSTANDARD = "LVCMOS33"; # Left
+NET in_btn[2] LOC = "AB24" | IOSTANDARD = "LVCMOS33"; # Middle
+NET in_btn[3] LOC = "AA24" | IOSTANDARD = "LVCMOS33"; # Right
+NET in_btn[4] LOC = "AC24" | IOSTANDARD = "LVCMOS33"; # Down
+
+NET o_led[0] LOC = "N24"  |  IOSTANDARD = "LVCMOS33";
+NET o_led[1] LOC = "N23"  |  IOSTANDARD = "LVCMOS33";
+NET o_led[2] LOC = "M24"  |  IOSTANDARD = "LVCMOS33";
+NET o_led[3] LOC = "L24"  |  IOSTANDARD = "LVCMOS33";
+NET o_led[4] LOC = "L23"  |  IOSTANDARD = "LVCMOS33";
+NET o_led[5] LOC = "K24"  |  IOSTANDARD = "LVCMOS33";
+NET o_led[6] LOC = "H24"  |  IOSTANDARD = "LVCMOS33";
+NET o_led[7] LOC = "D24"  |  IOSTANDARD = "LVCMOS33";
+
+NET o_7_segm[0]   LOC = "C17" |  IOSTANDARD = "LVCMOS33"; # segm_a, SNAPW_7
+NET o_7_segm[1]   LOC = "C13" |  IOSTANDARD = "LVCMOS33"; # segm_b, SNAPW_6
+NET o_7_segm[2]   LOC = "C11" |  IOSTANDARD = "LVCMOS33"; # segm_c, SNAPW_5
+NET o_7_segm[3]   LOC = "C9"  |  IOSTANDARD = "LVCMOS33"; # segm_d, SNAPW_4
+NET o_7_segm[4]   LOC = "C7"  |  IOSTANDARD = "LVCMOS33"; # segm_e, SNAPW_3
+NET o_7_segm[5]   LOC = "D6"  |  IOSTANDARD = "LVCMOS33"; # segm_f, SNAPW_2
+NET o_7_segm[6]   LOC = "C6"  |  IOSTANDARD = "LVCMOS33"; # segm_g, SNAPW_1
+#NET o_7_segm[7]   LOC = "C5"  |  IOSTANDARD = "LVCMOS33"; # segm_p, SNAPW_0
