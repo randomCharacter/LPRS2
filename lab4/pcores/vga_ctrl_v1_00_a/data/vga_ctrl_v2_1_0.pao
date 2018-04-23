@@ -1,0 +1,10 @@
+##############################################################################
+## Filename:          D:/ra97-2015/lprs2/lab4/pcores/vga_ctrl_v1_00_a/data/vga_ctrl_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Tue Mar 27 11:02:17 2018 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib axi_lite_ipif_v1_01_a  all 
+lib vga_ctrl_v1_00_a user_logic vhdl
+lib vga_ctrl_v1_00_a vga_ctrl vhdl

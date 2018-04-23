@@ -1,0 +1,9 @@
+-batch 
+-create vga_ctrl 
+-ver 1.00.a 
+-dir "D:\ra97-2015\lprs2\lab4" 
+-lang vhdl 
+-bus axi4lite s 
+-rst 
+-xps 
+-driver 

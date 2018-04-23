@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          D:\ra97-2015\lprs2\lab4/drivers/vga_ctrl_v1_00_a/data/vga_ctrl_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Tue Mar 27 11:02:17 2018 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER vga_ctrl
+
+  OPTION supported_peripherals = (vga_ctrl);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER
