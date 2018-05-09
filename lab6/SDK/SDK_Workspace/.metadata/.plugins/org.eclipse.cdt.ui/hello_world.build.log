@@ -1,0 +1,58 @@
+14:30:51 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_world_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+cygwin warning:
+  MS-DOS style path detected: D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Workspace\hello_world\Debug
+  Preferred POSIX equivalent is: /cygdrive/d/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/hello_world/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+cygwin warning:
+  MS-DOS style path detected: D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Workspace\hello_world\Debug
+  Preferred POSIX equivalent is: /cygdrive/d/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/hello_world/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building target: hello_world.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size hello_world.elf  |tee "hello_world.elf.size"
+cygwin warning:
+  MS-DOS style path detected: D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Workspace\hello_world\Debug
+  Preferred POSIX equivalent is: /cygdrive/d/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/hello_world/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+   text	   data	    bss	    dec	    hex	filename
+   5242	    312	   2086	   7640	   1dd8	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+Invoking: Xilinx ELF Check
+elfcheck hello_world.elf -hw ../../basic_system_hw_platform/system.xml -pe microblaze_0  |tee "hello_world.elf.elfcheck"
+cygwin warning:
+  MS-DOS style path detected: D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Workspace\hello_world\Debug
+  Preferred POSIX equivalent is: /cygdrive/d/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/hello_world/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+elfcheck
+Xilinx EDK 14.6 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../basic_system_hw_platform/system.xml -pe
+microblaze_0 hello_world.elf 
+
+ELF file	: hello_world.elf
+elfcheck passed.
+Finished building: hello_world.elf.elfcheck
+ 
+
+14:31:11 Build Finished (took 20s.266ms)
+

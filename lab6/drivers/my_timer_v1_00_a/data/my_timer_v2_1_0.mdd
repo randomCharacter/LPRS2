@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          D:\users\ra123_2013\lab6\basic_system/drivers/my_timer_v1_00_a/data/my_timer_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Thu Mar 06 23:14:08 2014 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER my_timer
+
+  OPTION supported_peripherals = (my_timer);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER

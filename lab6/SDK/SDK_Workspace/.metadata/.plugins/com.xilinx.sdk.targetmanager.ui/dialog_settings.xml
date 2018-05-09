@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Workspace\basic_system_hw_platform\system_bd.bmm" key="basic_system_hw_platform-bmmFile"/>
+	<item value="bootloop" key="basic_system_hw_platform-microblaze_0-initElf"/>
+	<item value="D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Workspace\basic_system_hw_platform\system.bit" key="basic_system_hw_platform-bitFile"/>
+</section>

@@ -1,0 +1,42 @@
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.6 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Generated Block Diagram.
+Rasterizing system.jpg .....
+SVG Rasterization successful
+Writing filter settings....
+Done writing filter settings to:
+	D:\users\ra123_2013\lab6\basic_system\etc\system.filters
+Done writing Tab View settings to:
+	D:\users\ra123_2013\lab6\basic_system\etc\system.gui
+
+********************************************************************************
+At Local date and time: Mon Apr 14 15:15:13 2014
+ make -f system.make clean started...
+rm -f implementation/system.ngc
+rm -f implementation/system_proc_sys_reset_0_wrapper.ngc implementation/system_microblaze_0_ilmb_wrapper.ngc implementation/system_microblaze_0_i_bram_ctrl_wrapper.ngc implementation/system_microblaze_0_dlmb_wrapper.ngc implementation/system_microblaze_0_d_bram_ctrl_wrapper.ngc implementation/system_microblaze_0_bram_block_wrapper.ngc implementation/system_microblaze_0_wrapper.ngc implementation/system_debug_module_wrapper.ngc implementation/system_clock_generator_0_wrapper.ngc implementation/system_axi_intc_0_wrapper.ngc implementation/system_my_timer_0_wrapper.ngc implementation/system_axi4lite_0_wrapper.ngc implementation/system_rs232_wrapper.ngc implementation/system_my_peripheral_0_wrapper.ngc
+rm -f platgen.log
+rm -f __xps/ise/_xmsgs/platgen.xmsgs
+rm -f implementation/system.bmm
+rm -rf implementation/cache
+rm -f implementation/system.bit
+rm -f implementation/system.ncd
+rm -f implementation/system_bd.bmm 
+rm -f implementation/system_map.ncd 
+rm -f implementation/download.bit 
+rm -f __xps/system_bits
+rm -rf implementation synthesis xst hdl
+rm -rf xst.srp system.srp
+rm -f __xps/ise/_xmsgs/bitinit.xmsgs
+rm -rf __xps/ps7_instance.mhs
+rm -rf simulation/behavioral
+rm -f simgen.log
+rm -f __xps/ise/_xmsgs/simgen.xmsgs
+rm -f _impact.cmd
+Done!
+Writing filter settings....
+Done writing filter settings to:
+	D:\work\lprs2\2013_2014\Resene_vezbe\lab6_tutorial\basic_system\etc\system.filters
+Done writing Tab View settings to:
+	D:\work\lprs2\2013_2014\Resene_vezbe\lab6_tutorial\basic_system\etc\system.gui

@@ -1,0 +1,1 @@
+ -p spartan6 -lang vhdl$(PROJECT_SEARCHPATHOPT) $(GLOBAL_SEARCHPATHOPT) -msg __xps/ise/xmsgprops.lst -s isim -X D:/work/lprs2/2013_2014/Resene_vezbe/lab6_tutorial/basic_system/

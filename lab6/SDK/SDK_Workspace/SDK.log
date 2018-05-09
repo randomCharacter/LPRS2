@@ -1,0 +1,474 @@
+14:07:35.824 INFO  - Project 'basic_system_hw_platform' created. You can now create BSPs and application projects targeting this hardware platform. 
+14:08:17.061 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+14:08:50.132 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:10:03.188 WARN  - Terminating existing sessions on processor microblaze_0 
+14:10:07.224 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+14:29:57.845 INFO  - Project basic_system_hw_platform's source hardware specification located at D:\users\ra123_2013\basic_system\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+14:30:06.823 INFO  - Copied contents of D:\users\ra123_2013\basic_system\SDK\SDK_Export\hw\system.xml into \basic_system_hw_platform\system.xml. 
+14:30:06.828 INFO  - Copied contents of D:\users\ra123_2013\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+14:30:06.830 INFO  - Copied contents of D:\users\ra123_2013\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+14:30:07.110 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:30:07.893 INFO  - Updating MSS for Board Support Package Project: hello_world_bsp.
+		 The following driver assignments were removed:
+			Peripheral Instance: dip_switches, driver: gpio_v3_01_a.
+			Peripheral Instance: leds, driver: gpio_v3_01_a.
+		 The following new driver assignments were made:
+			Peripheral Instance: my_peripheral_0, driver: generic_v1_00_a.
+ 
+14:30:08.698 INFO  - Updating hardware inferred compiler options for hello_world. 
+14:30:08.727 INFO  - Clearing existing target manager status. 
+14:30:08.727 INFO  - Closing and re-opening the MSS file of ther project hello_world_bsp 
+14:30:09.901 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+14:30:52.570 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:32:48.323 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:33:08.957 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:33:32.008 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:52:15.083 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+14:52:16.436 INFO  - Copied contents of D:\users\ra123_2013\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+14:52:16.438 INFO  - Copied contents of D:\users\ra123_2013\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+14:52:27.354 INFO  - The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace. 
+14:52:57.382 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+14:53:54.952 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:59:01.866 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+11:59:10.043 INFO  - Copied contents of D:\users\ra123_2013\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+11:59:10.073 INFO  - Copied contents of D:\users\ra123_2013\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+12:26:59.077 INFO  - Saving repository preferences. 
+12:26:59.109 INFO  - Reading in cores from local repositories: 
+		 D:\users\ra123_2013\lab3\lab3\basic_system 
+12:26:59.132 INFO  - Updating libgen.options on all BSP projects. 
+12:26:59.136 INFO  - Cleaning BSP projects in the workspace. 
+12:33:34.583 INFO  - Settings changed on project hello_world_bsp. Triggering a rebuild... 
+12:33:34.883 INFO  - Refreshed build settings on project hello_world 
+12:47:09.370 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab3/lab3/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+12:47:27.165 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:47:44.417 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:12:08.746 INFO  - Restoring local repository preferences: 
+		 D:\users\ra123_2013\lab3\lab3\basic_system 
+15:12:55.685 INFO  - Saving repository preferences. 
+15:12:55.689 INFO  - Reading in cores from local repositories: 
+		 D:\users\ra123_2013\lab6\basic_system 
+15:12:55.735 INFO  - Updating libgen.options on all BSP projects. 
+15:12:55.739 INFO  - Cleaning BSP projects in the workspace. 
+15:18:28.705 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml into \basic_system_hw_platform\system.xml. 
+15:18:28.709 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+15:18:28.710 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+15:18:29.238 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+15:18:30.122 INFO  - Updating MSS for Board Support Package Project: hello_world_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: axi_intc_0, driver: intc_v2_06_a.
+			Peripheral Instance: my_timer_0, driver: my_timer_v1_00_a.
+ 
+15:18:30.945 INFO  - Updating hardware inferred compiler options for hello_world. 
+15:18:31.731 INFO  - Updating hardware inferred compiler options for intc_test. 
+15:18:31.747 INFO  - Clearing existing target manager status. 
+15:18:34.068 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+15:30:26.020 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+15:30:47.587 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:31:12.662 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:31:22.617 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:35:12.827 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:36:35.944 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:37:00.568 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:37:26.130 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:45:39.371 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:46:14.541 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:46:53.256 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:52:08.517 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+15:52:09.474 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+15:52:09.476 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+15:52:15.428 WARN  - Terminating existing sessions on processor microblaze_0 
+15:52:19.312 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+15:52:48.930 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:52:50.332 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+15:52:55.193 WARN  - Terminating existing sessions on processor microblaze_0 
+15:53:28.034 WARN  - Terminating existing sessions on processor microblaze_0 
+15:53:38.184 WARN  - Terminating existing sessions on processor microblaze_0 
+15:53:42.402 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:54:08.949 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+15:55:39.399 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:17:18.639 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+16:17:19.940 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+16:17:19.943 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+16:17:26.742 INFO  - The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace. 
+16:17:54.549 WARN  - Terminating existing sessions on processor microblaze_0 
+16:17:58.537 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+16:18:06.019 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:18:08.020 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+16:18:14.887 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:18:58.243 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+16:20:58.583 WARN  - Terminating existing sessions on processor microblaze_0 
+16:21:05.344 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+16:47:57.802 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+16:47:58.623 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+16:47:58.625 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+16:48:08.840 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+03:17:40.200 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+03:17:40.200 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+09:56:42.685 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:58:11.808 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:59:51.473 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Cannot perform the Debug Command, Current Processor State is "Stopped"
+MicroBlaze is not being clocked. Check if the Clock input to MicroBlaze and its Bus Interfaces are connected properly
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:00:05.980 ERROR - FPGA Configuration failed.Failed to download the bit file
+
+    DONE bit didn't go HIGH after programming FPGA
+ 
+10:00:10.497 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+10:00:35.683 ERROR - FPGA Configuration failed.Failed to download the bit file
+
+    DONE bit didn't go HIGH after programming FPGA
+ 
+10:00:52.537 ERROR - FPGA Configuration failed.Failed to download the bit file
+
+    DONE bit didn't go HIGH after programming FPGA
+ 
+10:00:57.016 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+10:01:45.788 ERROR - FPGA Configuration failed.Failed to download the bit file
+
+    DONE bit didn't go HIGH after programming FPGA
+ 
+10:01:52.768 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+10:02:28.616 ERROR - FPGA Configuration failed.Failed to download the bit file
+
+    DONE bit didn't go HIGH after programming FPGA
+ 
+10:03:18.259 ERROR - FPGA Configuration failed.Failed to download the bit file
+
+    DONE bit didn't go HIGH after programming FPGA
+ 
+10:03:46.518 ERROR - FPGA Configuration failed.Failed to download the bit file
+
+    DONE bit didn't go HIGH after programming FPGA
+ 
+10:03:52.557 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+10:04:22.570 ERROR - FPGA Configuration failed.Failed to download the bit file
+
+    DONE bit didn't go HIGH after programming FPGA
+ 
+10:05:05.662 ERROR - FPGA Configuration failed.Failed to download the bit file
+
+    DONE bit didn't go HIGH after programming FPGA
+ 
+10:05:16.545 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+10:28:36.227 ERROR - FPGA Configuration failed.Failed to download the bit file
+
+    DONE bit didn't go HIGH after programming FPGA
+ 
+10:31:37.278 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:36:56.841 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Cannot perform the Debug Command, Current Processor State is "Stopped"
+MicroBlaze is not being clocked. Check if the Clock input to MicroBlaze and its Bus Interfaces are connected properly
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:37:19.221 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Debug Operation Not Supported on the Target
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:37:37.672 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+10:38:28.843 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+10:38:28.956 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+10:39:37.339 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:50:57.629 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:10:57.382 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:26:25.837 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+11:26:27.026 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+11:26:27.029 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+11:26:37.800 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:43:30.253 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+11:43:58.566 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+11:43:58.568 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+11:44:09.675 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:44:16.866 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Debug Operation Not Supported on the Target
+MicroBlaze Pipeline Stalled on a Blocking Instruction or Invalid Bus Access
+    Stalled PC: 0x3ffffffc
+    Try Resetting the Processor to Continue..
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+11:55:54.274 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+11:56:18.100 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+11:56:18.104 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+11:56:28.939 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+12:09:09.153 INFO  - Project basic_system_hw_platform's source hardware specification located at D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+12:09:23.562 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml into \basic_system_hw_platform\system.xml. 
+12:09:23.569 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+12:09:23.572 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+12:09:23.896 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+12:09:24.892 INFO  - Restoring local repository preferences: 
+		 D:\users\ra123_2013\lab6\basic_system 
+12:09:25.755 INFO  - Updating hardware inferred compiler options for hello_world. 
+12:09:26.525 INFO  - Updating hardware inferred compiler options for intc_test. 
+12:09:26.540 INFO  - Clearing existing target manager status. 
+12:09:27.540 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+12:10:06.702 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+12:36:16.681 INFO  - Project basic_system_hw_platform's source hardware specification located at D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+12:36:36.487 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml into \basic_system_hw_platform\system.xml. 
+12:36:36.494 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+12:36:36.497 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+12:36:37.879 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+12:36:39.483 INFO  - Updating hardware inferred compiler options for hello_world. 
+12:36:40.277 INFO  - Updating hardware inferred compiler options for intc_test. 
+12:36:40.288 INFO  - Clearing existing target manager status. 
+12:36:41.288 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+12:37:39.154 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+12:38:49.095 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+12:40:04.468 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+12:40:41.366 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+12:41:02.746 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+13:57:17.343 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:51:47.525 INFO  - Restoring local repository preferences: 
+		 D:\users\ra123_2013\lab6\basic_system 
+08:55:34.017 INFO  - Processing command line option -hwspec D:\users\ra123_2013\labx\SDK\SDK_Export\hw\labx.xml. 
+08:55:35.168 INFO  - The hardware specification for project 'basic_system_hw_platform' is different from D:\users\ra123_2013\labx\SDK\SDK_Export\hw\labx.xml. 
+08:55:35.205 INFO  - Copied contents of D:\users\ra123_2013\labx\SDK\SDK_Export\hw\labx.xml into \basic_system_hw_platform\system.xml. 
+08:55:35.209 INFO  - Copied contents of D:\users\ra123_2013\labx\SDK\SDK_Export\hw\labx.bit into \basic_system_hw_platform\system.bit. 
+08:55:35.210 INFO  - Copied contents of D:\users\ra123_2013\labx\SDK\SDK_Export\hw\labx_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+08:55:35.770 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+08:55:37.063 INFO  - Restoring local repository preferences: 
+		 D:\users\ra123_2013\lab6\basic_system 
+08:55:37.438 INFO  - Updating MSS for Board Support Package Project: hello_world_bsp.
+		 The following driver assignments were removed:
+			Peripheral Instance: my_peripheral_0, driver: my_peripheral_v1_00_a.
+			Peripheral Instance: axi_intc_0, driver: intc_v2_06_a.
+			Peripheral Instance: my_timer_0, driver: my_timer_v1_00_a.
+		 The following new driver assignments were made:
+			Peripheral Instance: axi_timer_0, driver: tmrctr_v2_05_a.
+			Peripheral Instance: dip_switches, driver: gpio_v3_01_a.
+			Peripheral Instance: leds, driver: gpio_v3_01_a.
+			Peripheral Instance: microblaze_0_intc, driver: intc_v2_06_a.
+ 
+08:55:38.304 INFO  - Updating hardware inferred compiler options for asd. 
+08:55:39.095 INFO  - Updating hardware inferred compiler options for hello_world. 
+08:55:39.890 INFO  - Updating hardware inferred compiler options for intc_test. 
+08:55:39.925 INFO  - Clearing existing target manager status. 
+08:55:42.077 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+08:55:52.634 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:56:28.367 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+08:57:21.554 INFO  - Restoring local repository preferences: 
+		 D:\users\ra123_2013\lab6\basic_system 
+09:02:56.581 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml into \basic_system_hw_platform\system.xml. 
+09:02:56.593 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+09:02:56.595 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+09:02:56.916 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+09:02:57.780 INFO  - Restoring local repository preferences: 
+		 D:\users\ra123_2013\lab6\basic_system 
+09:02:57.915 INFO  - Updating MSS for Board Support Package Project: hello_world_bsp.
+		 The following driver assignments were removed:
+			Peripheral Instance: axi_timer_0, driver: tmrctr_v2_05_a.
+			Peripheral Instance: dip_switches, driver: gpio_v3_01_a.
+			Peripheral Instance: leds, driver: gpio_v3_01_a.
+			Peripheral Instance: microblaze_0_intc, driver: intc_v2_06_a.
+		 The following new driver assignments were made:
+			Peripheral Instance: axi_intc_0, driver: intc_v2_06_a.
+			Peripheral Instance: my_peripheral_0, driver: my_peripheral_v1_00_a.
+			Peripheral Instance: my_timer_0, driver: my_timer_v1_00_a.
+ 
+09:02:58.739 INFO  - Updating hardware inferred compiler options for asd. 
+09:02:59.522 INFO  - Updating hardware inferred compiler options for hello_world. 
+09:03:00.309 INFO  - Updating hardware inferred compiler options for intc_test. 
+09:03:00.332 INFO  - Clearing existing target manager status. 
+09:05:22.621 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:10:02.084 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:21:25.727 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+09:21:27.156 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+09:21:27.159 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+09:21:28.509 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+09:21:34.790 INFO  - Processing command line option -hwspec D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml. 
+09:21:48.723 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:23:59.949 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:24:50.898 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+09:25:14.612 ERROR - FPGA Configuration failed.Failed to download the bit file
+
+    DONE bit didn't go HIGH after programming FPGA
+ 
+09:25:31.821 ERROR - FPGA Configuration failed.Failed to download the bit file
+
+    DONE bit didn't go HIGH after programming FPGA
+ 
+09:25:35.411 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+09:26:15.379 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:27:20.006 ERROR - FPGA Configuration failed.Failed to download the bit file
+
+    DONE bit didn't go HIGH after programming FPGA
+ 
+09:27:24.197 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+09:27:59.980 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:30:44.443 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+09:44:35.523 INFO  - Project basic_system_hw_platform's source hardware specification located at D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+09:44:36.811 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml into \basic_system_hw_platform\system.xml. 
+09:44:36.817 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+09:44:36.819 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+09:44:37.136 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+09:44:38.069 INFO  - Restoring local repository preferences: 
+		 D:\users\ra123_2013\lab6\basic_system 
+09:44:38.925 INFO  - Updating hardware inferred compiler options for asd. 
+09:44:39.712 INFO  - Updating hardware inferred compiler options for hello_world. 
+09:44:40.499 INFO  - Updating hardware inferred compiler options for intc_test. 
+09:44:40.503 INFO  - Clearing existing target manager status. 
+09:45:13.298 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:45:49.648 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:46:08.411 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:46:36.078 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:46:49.332 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:20:22.576 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:37:21.046 INFO  - Project basic_system_hw_platform's source hardware specification located at D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+11:37:31.651 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml into \basic_system_hw_platform\system.xml. 
+11:37:31.657 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+11:37:31.660 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+11:37:31.969 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+11:37:33.608 INFO  - Updating hardware inferred compiler options for asd. 
+11:37:34.393 INFO  - Updating hardware inferred compiler options for hello_world. 
+11:37:35.179 INFO  - Updating hardware inferred compiler options for intc_test. 
+11:37:35.203 INFO  - Clearing existing target manager status. 
+11:37:51.841 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+12:03:03.334 INFO  - Project basic_system_hw_platform's source hardware specification located at D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+12:03:09.899 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml into \basic_system_hw_platform\system.xml. 
+12:03:09.903 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+12:03:09.905 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+12:03:10.216 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+12:03:20.577 INFO  - Updating hardware inferred compiler options for asd. 
+12:03:21.347 INFO  - Updating hardware inferred compiler options for hello_world. 
+12:03:22.128 INFO  - Updating hardware inferred compiler options for intc_test. 
+12:03:22.159 INFO  - Clearing existing target manager status. 
+12:03:53.123 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+12:05:16.683 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+12:05:38.804 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:05:51.658 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:06:08.544 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:06:28.298 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:26:05.828 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:26:44.206 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:30:24.171 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:30:39.863 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:31:38.824 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:43:10.631 INFO  - Project basic_system_hw_platform's source hardware specification located at D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+12:43:12.074 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml into \basic_system_hw_platform\system.xml. 
+12:43:12.080 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+12:43:12.082 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+12:43:12.431 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+12:43:13.206 INFO  - Updating MSS for Board Support Package Project: hello_world_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: axi_timer_0, driver: tmrctr_v2_05_a.
+ 
+12:43:14.015 INFO  - Updating hardware inferred compiler options for asd. 
+12:43:14.791 INFO  - Updating hardware inferred compiler options for hello_world. 
+12:43:15.567 INFO  - Updating hardware inferred compiler options for intc_test. 
+12:43:15.585 INFO  - Clearing existing target manager status. 
+12:43:15.586 INFO  - Closing and re-opening the MSS file of ther project hello_world_bsp 
+12:43:16.777 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+12:43:21.727 INFO  - The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace. 
+12:43:22.440 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+12:43:27.660 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+12:43:27.662 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+12:43:47.296 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+12:46:04.978 WARN  - Terminating existing sessions on processor microblaze_0 
+12:46:08.994 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+12:49:59.447 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:50:21.832 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:50:46.809 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:55:00.953 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:55:48.894 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:56:24.125 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:27:04.520 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+13:32:28.537 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+13:32:30.382 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+13:32:30.383 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+13:32:52.324 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+13:45:37.780 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:48:16.266 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:48:26.109 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:50:06.838 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:50:15.684 WARN  - Terminating existing sessions on processor microblaze_0 
+13:50:19.625 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+13:51:48.783 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:52:14.592 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+13:52:16.079 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+13:52:16.082 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+13:52:23.238 WARN  - Terminating existing sessions on processor microblaze_0 
+13:52:27.191 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+13:52:42.368 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:53:05.411 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:55:34.787 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:57:05.373 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:42:15.030 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+14:42:16.198 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+14:42:16.199 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+14:42:21.373 WARN  - Terminating existing sessions on processor microblaze_0 
+14:42:25.330 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+14:42:52.776 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:43:00.203 INFO  - Successfully generated D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Workspace\intc_test\src\lscript.ld. 
+14:43:00.203 INFO  - Applying linker script to all configurations of project intc_test. 
+14:43:00.204 INFO  - Setting rebuild state to true for all configurations of project intc_test. 
+14:43:07.652 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:43:18.851 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:43:43.357 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:45:32.146 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:14:48.254 INFO  - Project basic_system_hw_platform's source hardware specification located at D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+15:14:49.443 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.xml into \basic_system_hw_platform\system.xml. 
+15:14:49.446 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+15:14:49.448 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+15:14:50.008 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+15:14:50.842 INFO  - Updating MSS for Board Support Package Project: hello_world_bsp.
+		 The following driver assignments were removed:
+			Peripheral Instance: axi_timer_0, driver: tmrctr_v2_05_a.
+ 
+15:14:51.722 INFO  - Updating hardware inferred compiler options for asd. 
+15:14:52.499 INFO  - Updating hardware inferred compiler options for hello_world. 
+15:14:53.270 INFO  - Updating hardware inferred compiler options for intc_test. 
+15:14:54.041 INFO  - Updating hardware inferred compiler options for timer_example. 
+15:14:54.055 INFO  - Clearing existing target manager status. 
+15:14:54.055 INFO  - Closing and re-opening the MSS file of ther project hello_world_bsp 
+15:14:55.179 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+15:15:11.539 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+15:15:13.392 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+15:15:13.394 INFO  - Copied contents of D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+15:15:40.339 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+15:39:31.978 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:42:18.874 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:42:48.624 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:57:26.697 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:26:17.977 INFO  - FPGA configured successfully with bitstream "D:/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+16:26:35.903 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:06:59.935 INFO  - Restoring local repository preferences: 
+		 D:\users\ra123_2013\lab6\basic_system 
+14:31:19.212 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+14:31:19.306 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 

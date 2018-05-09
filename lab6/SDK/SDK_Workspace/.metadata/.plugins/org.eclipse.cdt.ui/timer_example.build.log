@@ -1,0 +1,33 @@
+16:26:35 **** Incremental Build of configuration Debug for project timer_example ****
+make all 
+Building file: ../src/xtmrctr_intr_example.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_world_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xtmrctr_intr_example.d" -MT"src/xtmrctr_intr_example.d" -o "src/xtmrctr_intr_example.o" "../src/xtmrctr_intr_example.c"
+cygwin warning:
+  MS-DOS style path detected: D:\users\ra123_2013\lab6\basic_system\SDK\SDK_Workspace\timer_example\Debug
+  Preferred POSIX equivalent is: /cygdrive/d/users/ra123_2013/lab6/basic_system/SDK/SDK_Workspace/timer_example/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+../src/xtmrctr_intr_example.c:139:4: error: unknown type name 'XTmrCtr'
+../src/xtmrctr_intr_example.c:145:5: error: unknown type name 'XTmrCtr'
+../src/xtmrctr_intr_example.c:158:1: error: unknown type name 'XTmrCtr'
+../src/xtmrctr_intr_example.c: In function 'main':
+../src/xtmrctr_intr_example.c:194:2: warning: implicit declaration of function 'TmrCtrIntrExample' [-Wimplicit-function-declaration]
+../src/xtmrctr_intr_example.c:196:7: error: 'XPAR_TMRCTR_0_DEVICE_ID' undeclared (first use in this function)
+../src/xtmrctr_intr_example.c:196:7: note: each undeclared identifier is reported only once for each function it appears in
+../src/xtmrctr_intr_example.c:197:7: error: 'XPAR_INTC_0_TMRCTR_0_VEC_ID' undeclared (first use in this function)
+../src/xtmrctr_intr_example.c: At top level:
+../src/xtmrctr_intr_example.c:234:4: error: unknown type name 'XTmrCtr'
+../src/xtmrctr_intr_example.c: In function 'TimerCounterHandler':
+../src/xtmrctr_intr_example.c:353:2: error: unknown type name 'XTmrCtr'
+../src/xtmrctr_intr_example.c:353:26: error: 'XTmrCtr' undeclared (first use in this function)
+../src/xtmrctr_intr_example.c:353:35: error: expected expression before ')' token
+../src/xtmrctr_intr_example.c:362:2: warning: implicit declaration of function 'XTmrCtr_IsExpired' [-Wimplicit-function-declaration]
+../src/xtmrctr_intr_example.c:365:4: warning: implicit declaration of function 'XTmrCtr_SetOptions' [-Wimplicit-function-declaration]
+../src/xtmrctr_intr_example.c: At top level:
+../src/xtmrctr_intr_example.c:395:6: error: unknown type name 'XTmrCtr'
+make: *** [src/xtmrctr_intr_example.o] Error 1
+
+16:26:35 Build Finished (took 325ms)
+
