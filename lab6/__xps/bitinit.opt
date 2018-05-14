@@ -1,1 +1,0 @@
- -p xc6slx45fgg676-2 -pe microblaze_0 bootloops/microblaze_0.elf
