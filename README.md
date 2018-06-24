@@ -4,4 +4,4 @@ Rešenja zadataka sa vežbi predmeta "Logičko projektovanje računarskih sistem
 
 Više informacija o predmetu, kao i dodatni materijali mogu se naći na [sajtu predmeta](http://www.rt-rk.uns.ac.rs/predmeti/e2/lprs-2-logi%C4%8Dko-projektovanje-ra%C4%8Dunarskih-sistema-2)
 
-[Projekat iz predmeta LPRS2 1](http://github.com/randomCharacter/E2LP_NES)
+[Projekat iz predmeta LPRS2](http://github.com/randomCharacter/E2LP_NES)
